@@ -1,0 +1,126 @@
+*{
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    background-image: url('bck.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+
+
+header{
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
+    
+}
+.logo{
+    cursor: default;
+    opacity: 0;
+    animation: slideRight 1s ease forwards;
+}
+@keyframes slideRight {
+    0%{
+        transform: translateX(0px);
+        opacity: 0;
+    }
+    100%{
+        transform: translateX(0px);
+        opacity: 1;
+    }
+}
+.navbar a{
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 20px;
+    transition: 1s;
+    color: aliceblue;
+    
+}
+.navbar a:hover{
+    color: aqua;
+}
+
+
+
+
+
+.home{
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+    justify-content: space-between;
+    height: 500px;
+    color: white;
+
+}
+.home-content{
+    width: 60%;
+    height: 100%;
+    /* border: 2px solid gold; */
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;   
+}
+.social_links a{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background: transparent;
+    text-decoration: none;
+    border: 2px solid aqua;
+    border-radius: 50%;
+    font-size: 20px;
+    color: aqua;
+    margin-left: 5px;
+    margin-top: 20px;
+}
+.social_links a:hover{
+    background: aqua;
+    color: black;
+    box-shadow: 0 0 20px aqua;
+}
+.btn-box{
+    margin-top: 30px;
+    background: aqua;
+    border: 2px solid aqua;
+    color: black;
+    padding: 10px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+.btn-box:hover{
+    background: transparent;
+    color: aliceblue;
+    box-shadow: 0 0 20px aqua;
+}
+#text {
+    white-space: nowrap; /* Prevent text from wrapping */
+    overflow: hidden; /* Hide overflow */
+    border-right: 2px solid aqua; /* Simulate a typing cursor */
+    color: gold;
+  }
+  
+
+
+.intro{
+    width: 40%;
+    /* border: 2px solid gold; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.intro img{
+    width: 90%;
+    height: 90%;
+}
+
