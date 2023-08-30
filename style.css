@@ -2,7 +2,7 @@
     font-family: 'Roboto', sans-serif;
 }
 body{
-    background-image: url('bck.jpg');
+    background-image: url('img/bck.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -103,9 +103,9 @@ header{
     box-shadow: 0 0 20px aqua;
 }
 #text {
-    white-space: nowrap; /* Prevent text from wrapping */
-    overflow: hidden; /* Hide overflow */
-    border-right: 2px solid aqua; /* Simulate a typing cursor */
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 2px solid aqua;
     color: gold;
   }
   
@@ -162,7 +162,7 @@ header{
 
 
 .skill{
-    margin-top: 30px;
+    margin-top: 50px;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -170,11 +170,44 @@ header{
 
 .skill-card{
     color: aliceblue;
-    padding: 20px;
-    margin-top: 5px;
+    display: flex;
+    flex-direction: column;
+    /* padding: 20px; */
+    margin: 20px;
     border: 2px solid aqua;
-    height: 450px;
-    width: 350px;
+    height: 500px;
+    width: 400px;
     border-radius: 10px;
+    box-shadow: 0 0 30px aqua;
+}
+
+
+.skill-img{
+    /* border: 2px solid gold; */
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.skill-content{
+    text-align: center;
+    margin-top: 20px;
+    padding: 20px;
+}
+.skill-more{
+    text-align: center;
+    margin-top: 30px;
+}
+.skill-more a{
+    text-decoration: none;
+    background: aqua;
+    border: 2px solid aqua;
+    color: black;
+    padding: 10px;
+    border-radius: 20px;
+}
+.skill-more a:hover{
+    background: transparent;
+    color: aqua;
     box-shadow: 0 0 30px aqua;
 }
