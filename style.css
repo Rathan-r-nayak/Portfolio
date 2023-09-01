@@ -233,4 +233,5 @@ footer {
     padding: 20px;
     bottom: 0;
     margin: 50px -10px -10px -10px;
+    box-shadow: 0 0 30px aqua;
   }
