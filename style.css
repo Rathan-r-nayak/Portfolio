@@ -62,7 +62,12 @@ header{
 .home-content{
     width: 60%;
     height: 100%;
-    /* border: 2px solid gold; */
+
+    /* border: 2px solid gold;
+    border-radius: 100%;
+    box-shadow: 0 0 60px aqua; */
+
+    font-size: x-large;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -90,6 +95,7 @@ header{
 }
 .btn-box{
     margin-top: 30px;
+    font-size: large;
     background: aqua;
     border: 2px solid aqua;
     color: black;
@@ -179,6 +185,7 @@ header{
     width: 400px;
     border-radius: 10px;
     box-shadow: 0 0 20px aqua;
+    background-image: url('img/skill_bck.jpg');
 }
 .skill-card:hover{
     border: 3px solid aqua;
